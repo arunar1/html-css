@@ -1,4 +1,30 @@
-a{
+h1{
+    font-family: 'Anybody', cursive;
     font-size: 100px;
-    color: black;
+    color: red;
+    
+}
+
+p{
+    font-family: "Anybody";
+    font-size: 40px;
+}
+
+.div1{
+    background-color: violet;
+    border: 10px solid red;
+    margin: 20px;
+    padding: 20px;
+}    
+.div2{
+    background-color: cyan;
+    border: 10px dotted rgb(60, 60, 34);
+    margin: 20px;
+    padding: 20px;
+}
+.div3{
+    background-color: ghostwhite;
+    border: 10px double blue;
+    margin: 20px;
+    padding: 20px;
 }

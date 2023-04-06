@@ -1,30 +1,40 @@
-h1{
-    font-family: 'Anybody', cursive;
-    font-size: 100px;
-    color: red;
-    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anybody';
+    box-sizing: border-box;
+    font-family: 'source sans pro';
 }
+nav{
+    background-color:#3e3e3f;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding-inline:200px;
+}
+#iphonebar{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-inline: 50px;
+    margin-top: 10px;
+    border-bottom: 0.01px solid black ;
+    margin-inline:auto ;
+}
+#iphone-text{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+#buy-button{
+    background-color: #2727c3;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    width: 35px;
 
-p{
-    font-family: "Anybody";
-    font-size: 40px;
-}
 
-.div1{
-    background-color: violet;
-    border: 10px solid red;
-    margin: 20px;
-    padding: 20px;
-}    
-.div2{
-    background-color: cyan;
-    border: 10px dotted rgb(60, 60, 34);
-    margin: 20px;
-    padding: 20px;
-}
-.div3{
-    background-color: ghostwhite;
-    border: 10px double blue;
-    margin: 20px;
-    padding: 20px;
 }

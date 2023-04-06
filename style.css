@@ -38,3 +38,46 @@ nav{
 
 
 }
+header{
+    width: 100vw;
+}
+
+
+
+#iphonepic{
+    object-fit:cover;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+header h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+header a{
+    color: rgb(115, 115, 213);
+    margin-right: 10px;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+header p{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+header img{
+    margin-top: 65px;
+}
